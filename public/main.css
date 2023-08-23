@@ -116,13 +116,13 @@ li {
   }
   @media (min-width: 1024px) {
     .gallery {
-      height: 1000px;
+      height: 400px;
     }
   }
 
   @media (min-width: 1075px) {
     .gallery {
-      height: 250px;
+      height: 400px;
     }
     .footer {
       height: 200px;

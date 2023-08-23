@@ -957,8 +957,20 @@ video {
   padding: 0.25rem;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .p-4{
   padding: 1rem;
+}
+
+.p-5{
+  padding: 1.25rem;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .px-2{
@@ -980,12 +992,30 @@ video {
   padding-left: 2.5rem;
 }
 
+.pt-10{
+  padding-top: 2.5rem;
+}
+
 .text-center{
   text-align: center;
 }
 
 .align-middle{
   vertical-align: middle;
+}
+
+.align-bottom{
+  vertical-align: bottom;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-lg{
@@ -1263,13 +1293,13 @@ li{
 
 @media (min-width: 1024px) {
   .gallery {
-    height: 1000px;
+    height: 400px;
   }
 }
 
 @media (min-width: 1075px) {
   .gallery {
-    height: 250px;
+    height: 400px;
   }
 
   .footer {
@@ -1325,6 +1355,11 @@ li{
   .phone\:hidden{
     display: none;
   }
+
+  .phone\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 640px){
@@ -1362,6 +1397,11 @@ li{
   .md\:p-2{
     padding: 0.5rem;
   }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1385,5 +1425,10 @@ li{
 
   .lg\:pt-12{
     padding-top: 3rem;
+  }
+
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
