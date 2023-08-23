@@ -97,7 +97,7 @@ li {
   .bottom_bg {
     background-image: linear-gradient(#000 0,transparent var(--gradient-fade-width),transparent calc(100% - var(--gradient-fade-width)),#000 100%),linear-gradient(70deg,#3c1251,#000 40%,#000 60%,#012f7a)
   }
-  @media (min-width: 375px) {
+  @media (min-width: 69px) {
     .gallery {
       height: 900px;
     }
