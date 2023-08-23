@@ -18,6 +18,9 @@ html {
     background-repeat: no-repeat;
     background-size: 300px;
 }
+.intro-text {
+  padding:20px;
+}
 .sites {
   background-color: #f2f2f0;
 }

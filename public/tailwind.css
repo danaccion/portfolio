@@ -656,11 +656,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mx-40{
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
-
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -1102,6 +1097,10 @@ html {
   background-image: url('./assets/profile.png');
   background-repeat: no-repeat;
   background-size: 300px;
+}
+
+.intro-text {
+  padding:20px;
 }
 
 .sites {
