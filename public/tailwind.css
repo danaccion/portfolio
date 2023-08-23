@@ -656,6 +656,11 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mx-40{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -1235,6 +1240,9 @@ li{
     height: 900px;
   }
 
+  .skills_sm {
+  }
+
   .skills {
     margin-top: 100px;
   }
@@ -1342,6 +1350,10 @@ li{
   .md\:-my-40{
     margin-top: -10rem;
     margin-bottom: -10rem;
+  }
+
+  .md\:block{
+    display: block;
   }
 
   .md\:hidden{
