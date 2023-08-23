@@ -957,20 +957,12 @@ video {
   padding: 0.25rem;
 }
 
-.p-2{
-  padding: 0.5rem;
+.p-10{
+  padding: 2.5rem;
 }
 
 .p-4{
   padding: 1rem;
-}
-
-.p-5{
-  padding: 1.25rem;
-}
-
-.p-10{
-  padding: 2.5rem;
 }
 
 .px-2{
@@ -1006,16 +998,6 @@ video {
 
 .align-bottom{
   vertical-align: bottom;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-lg{
@@ -1269,6 +1251,10 @@ li{
     height: 900px;
   }
 
+  .skills_marq {
+    padding-left: 200px;
+  }
+
   .skills_sm {
   }
 
@@ -1356,6 +1342,10 @@ li{
     display: none;
   }
 
+  .phone\:p-10{
+    padding: 2.5rem;
+  }
+
   .phone\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1373,6 +1363,10 @@ li{
 
   .sm\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:pl-96{
+    padding-left: 24rem;
   }
 }
 
